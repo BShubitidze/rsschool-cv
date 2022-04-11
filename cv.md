@@ -15,4 +15,21 @@
 
 ---
 
+## Skills
+-	Html5
+-	Css
+-	Javascript
+-	C#
+-	SQL
+-	Git 
+-	Figma (For web development) 
+-	Editors: VSCode, Visual studio .
+
+## Education
+-	w3school
+-	freecodecamp
+Languages
+-	Georgian – native
+-	English - A2
+-	Russian - B1
 
