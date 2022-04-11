@@ -28,8 +28,37 @@
 ## Education
 -	w3school
 -	freecodecamp
-Languages
+
+
+## Languages
 -	Georgian – native
 -	English - A2
 -	Russian - B1
 
+---
+# Experience
+- no experience in programming
+
+# Code Example
+```
+function Car(mName, mYear){
+    this.name = mName;
+    this.year = mYear;
+};
+function User(pName, pAge) {
+    this.name = pName;
+    this.age = pAge;
+    this.driveCar = function(car){
+        console.log(this.name + " ატარებს მანქანას მარკით " + car.name + " გამოშვების წელი " + car.year);
+    };
+    this.displayInfo = function(){
+        console.log("სახელი: " + this.name + "; ასაკი: " + this.age);
+    };
+};
+ 
+var giorgi = new User("გიორგი", 26);
+giorgi.displayInfo();
+var bently = new Car("ბენტლი", 2014);
+giorgi.driveCar(bently);
+
+```
